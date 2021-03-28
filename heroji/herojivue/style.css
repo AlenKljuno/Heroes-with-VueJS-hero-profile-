@@ -1,0 +1,45 @@
+
+img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+   margin: 10px;
+  width: 100px;
+  height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   border:none;
+   outline: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.heroji{
+    float: left;
+    width:300px;
+
+}
+.showedHero{
+    float: right;
+    width: 700px;
+}
+ul li {
+    list-style: none;
+}
+.showedImg{
+    width: 90%;
+}
